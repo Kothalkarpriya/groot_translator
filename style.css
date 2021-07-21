@@ -48,6 +48,7 @@ textarea{
     padding: 2rem; */
     align-items: center;
     overflow: scroll;
+    text-align: center;
 }
 div{
     display: block;
