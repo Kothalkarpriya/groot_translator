@@ -1,7 +1,7 @@
 :root{
-    --brown:#854D0E;
-    --green:#A3E635;
-    --background:#DDD6FE;
+    --brown:#881337;
+    --green:#FCD34D;
+    --background:#FFEDD5;
 }
 body{
     margin: 0px;
@@ -27,8 +27,7 @@ img{
     max-width: 350px;
     display: block;
     margin: auto;
-    
-
+    /* border:  solid black; */
 }
 main{
     margin: auto;
@@ -50,7 +49,7 @@ textarea{
     padding: 2rem; */
     align-items: center;
     overflow: scroll;
-    text-align: center;
+    /* text-align: center; */
 }
 div{
     display: block;
@@ -69,7 +68,7 @@ button{
     font-size:medium;
 }
 #output{
-    background-color: wheat;
+    background-color: white;
     box-sizing: border-box;
     border: 1px solid black;
     min-height: 18vh;
