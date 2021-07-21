@@ -1,10 +1,12 @@
 :root{
     --brown:#854D0E;
     --green:#A3E635;
+    --background:#DDD6FE;
 }
 body{
     margin: 0px;
     padding: 0px;
+    background-color: var(--background);
 }
 .alignment{
     background-color: var(--brown);
@@ -76,5 +78,12 @@ button{
 width: 100%;
 }
 footer{
+    bottom: 0px;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
 
+}
+footer p{
+margin: auto;
 }
