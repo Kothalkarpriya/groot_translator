@@ -1,27 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
-:root{
-    --brown:#881337;
-    --green:#FEF9C3;
-    --background:#FFEDD5;
+
+:root {
+    --brown: #881337;
+    --green: #FEF9C3;
+    --background: #FFEDD5;
 }
-body{
+
+/* body */
+body {
     margin: 0px;
     padding: 0px;
     background-color: var(--background);
 }
-.alignment{
-    background-color: var(--brown);
-    color:var(--green);
-    padding: 2rem;
+nav{
+    padding: 0px;
+    width: 100%;
     text-align: center;
-    font-size: larger;
+    top: fixed;
+}
+article{
+    float:left;
+    margin-right:20px;
+    width:80%;
+}
+aside{
+    float:left;
+    width:calc(20% - 140px);
+}
+
+/* alignment  */
+.alignment {
+    background-color: var(--brown);
+    color: var(--green);
+    padding: 3rem;
+    margin: 0rem ;
+    /* text-align: center; */
+    /* font-size: larger; */
     font-family: 'Tourney', cursive;
 }
-header{
+a{color:var(--green);
+    text-decoration: none;}
+
+/* header or image */
+header {
     display: block;
 }
 
-img{
+img {
     width: 250px;
     padding-top: 2rem;
     /* padding: 5rem; */
@@ -30,16 +55,20 @@ img{
     margin: auto;
     /* border:  solid black; */
 }
-main{
+
+/* main translation component */
+main {
     margin: auto;
     padding: 1rem;
     max-width: 600px;
     display: block;
 }
-section{
+
+section {
     display: block;
 }
-textarea{
+
+textarea {
     box-sizing: border-box;
     width: 100%;
     min-height: 18vh;
@@ -52,38 +81,45 @@ textarea{
     overflow: scroll;
     text-align: center;
 }
-div{
+
+div {
     display: block;
 }
-strong{
+
+strong {
     font-weight: bold;
     font-size: larger;
 }
-button{
+
+button {
     color: var(--green);
     background-color: var(--brown);
     align-items: center;
     border: none;
     margin: 1rem 1rem;
     padding: 1rem;
-    font-size:medium;
+    font-size: medium;
 }
-#output{
+
+#output {
     background-color: white;
     box-sizing: border-box;
     border: 1px solid black;
     min-height: 18vh;
     max-height: 20vh;
     overflow: scroll;
-width: 100%;
+    width: 100%;
 }
-footer{
+
+/* footer */
+footer {
     bottom: 0px;
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
 
 }
-footer p{
-margin: auto;
+
+footer p {
+    margin: auto;
 }
