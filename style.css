@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
 :root{
     --brown:#881337;
-    --green:#FCD34D;
+    --green:#FEF9C3;
     --background:#FFEDD5;
 }
 body{
@@ -14,7 +15,7 @@ body{
     padding: 2rem;
     text-align: center;
     font-size: larger;
-
+    font-family: 'Tourney', cursive;
 }
 header{
     display: block;
@@ -49,7 +50,7 @@ textarea{
     padding: 2rem; */
     align-items: center;
     overflow: scroll;
-    /* text-align: center; */
+    text-align: center;
 }
 div{
     display: block;
