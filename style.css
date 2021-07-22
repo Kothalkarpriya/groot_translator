@@ -13,6 +13,7 @@
 body {
     margin: 0px;
     background-color: var(--background);
+    font-family: 'Abril Fatface', cursive;
 }
 
 .li{display: inline;}
@@ -29,7 +30,7 @@ body {
     color: var(--green);
     padding: 1rem;
     text-align: center;
-    font-family: 'Tourney', cursive;
+    /* font-family: 'Tourney', cursive; */
 }
 
 .list-non-bullet {
@@ -45,9 +46,7 @@ body {
 a{color:var(--green);
     text-decoration: none;}
 
-a h1{
-    font-size: x-large;
-}
+
 
 /* header or image */
 header {
