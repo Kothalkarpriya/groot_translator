@@ -16,7 +16,8 @@ body {
     font-family: 'Abril Fatface', cursive;
 }
 
-.li{display: inline;}
+.li{display: inline;
+}
 
 .link{
     box-sizing: border-box;
