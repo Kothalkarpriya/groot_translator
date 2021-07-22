@@ -5,11 +5,14 @@
     --green: #FEF9C3;
     --background: #FFEDD5;
 }
+*{
+    box-sizing: border-box;
+}
 
 /* body */
 body {
-    margin: 0%;
-    padding: 0px;
+    margin: 0px;
+    /* padding: 0px; */
     background-color: var(--background);
 }
 nav{
@@ -36,8 +39,8 @@ aside{
     background-color: var(--brown);
     color: var(--green);
     padding: 4rem;
-    margin: 0rem ;
-    /* text-align: center; */
+    /* margin: 0rem ; */
+    text-align: center;
     /* font-size: larger; */
     font-family: 'Tourney', cursive;
 }
@@ -52,7 +55,7 @@ a h1{
 /* header or image */
 header {
     display: block;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 img {
@@ -122,9 +125,9 @@ button {
 
 /* footer */
 footer {
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     text-align: center;
 
 }
