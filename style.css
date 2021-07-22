@@ -8,12 +8,12 @@
 
 /* body */
 body {
-    margin: 0px;
+    margin: 0%;
     padding: 0px;
     background-color: var(--background);
 }
 nav{
-    padding: 0px;
+    padding: 1px;
     width: 100%;
     /* text-align: center; */
     /* top: fixed; */
@@ -22,12 +22,13 @@ nav{
 article{
     float:left;
     margin-right:20px;
-    width:50%;
+    width:60%;
+    font-size: x-large;
     
 }
 aside{
     float:left;
-    width:calc(50% - 140px);
+    width:calc(40% - 140px);
 }
 
 /* alignment  */
@@ -51,11 +52,12 @@ a h1{
 /* header or image */
 header {
     display: block;
+    padding: 1rem;
 }
 
 img {
     width: 250px;
-    padding-top: 2rem;
+    padding-top: 1rem;
     /* padding: 5rem; */
     max-width: 350px;
     display: block;
