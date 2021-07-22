@@ -12,45 +12,42 @@
 /* body */
 body {
     margin: 0px;
-    /* padding: 0px; */
     background-color: var(--background);
 }
-nav{
-    padding: 1px;
-    width: 100%;
-    /* text-align: center; */
-    /* top: fixed; */
-    /* text-size-adjust: large; */
-}
-article{
-    float:left;
-    margin-right:20px;
-    width:60%;
-    font-size: x-large;
-    
-}
-aside{
-    float:left;
-    width:calc(40% - 140px);
+
+.li{display: inline;}
+
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
 
 /* alignment  */
 .alignment {
     background-color: var(--brown);
     color: var(--green);
-    padding: 4rem;
-    /* margin: 0rem ; */
+    padding: 1rem;
     text-align: center;
-    /* font-size: larger; */
     font-family: 'Tourney', cursive;
 }
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
 a{color:var(--green);
     text-decoration: none;}
 
 a h1{
     font-size: x-large;
 }
-
 
 /* header or image */
 header {
@@ -61,11 +58,9 @@ header {
 img {
     width: 250px;
     padding-top: 1rem;
-    /* padding: 5rem; */
     max-width: 350px;
     display: block;
     margin: auto;
-    /* border:  solid black; */
 }
 
 /* main translation component */
@@ -87,8 +82,6 @@ textarea {
     max-height: 20vh;
     font-size: larger;
     display: block;
-    /* margin: 2rem;
-    padding: 2rem; */
     align-items: center;
     overflow: scroll;
     text-align: center;
