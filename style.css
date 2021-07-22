@@ -15,17 +15,19 @@ body {
 nav{
     padding: 0px;
     width: 100%;
-    text-align: center;
-    top: fixed;
+    /* text-align: center; */
+    /* top: fixed; */
+    /* text-size-adjust: large; */
 }
 article{
     float:left;
     margin-right:20px;
-    width:80%;
+    width:50%;
+    
 }
 aside{
     float:left;
-    width:calc(20% - 140px);
+    width:calc(50% - 140px);
 }
 
 /* alignment  */
@@ -40,6 +42,11 @@ aside{
 }
 a{color:var(--green);
     text-decoration: none;}
+
+a h1{
+    font-size: x-large;
+}
+
 
 /* header or image */
 header {
